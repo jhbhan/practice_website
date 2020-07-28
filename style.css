@@ -55,10 +55,11 @@ footer {
 .nav_items li {
     padding: 8px 12px;
     font-size: 24px;
+    transition: transform 0.2s;
 }
 
 .nav_items li:hover {
-    font-size: 28px;
+    transform: scale(1.2);
 }
 
 .nav_items li a {
